@@ -1,0 +1,116 @@
+#header {
+  min-height: 200px;
+	background: url("../images/header-background.png") top left repeat-x;
+  position: relative;
+  z-index: 999;	
+}
+
+#header-wrapper {
+  margin: 0 auto;
+  background: url("../images/dekor.png") 622px 11px no-repeat;
+  position: relative;
+  min-height: 192px;
+}
+
+#header-language {
+  position: absolute;
+  right: 394px;
+	top: 10px;
+  background: rgb(243,243,243);
+  padding: 9px;
+  padding-left: 6px;
+}
+
+.lang-sk #header-language {
+  right: 418px;
+}
+
+#header-logo	{
+  width: 326px;
+	height: 90px;
+	left: -2px;
+	top: 33px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 100%;
+	
+	position: relative;
+	overflow: hidden;
+}
+
+#header-logo span	{	
+	width: 326px;
+	height: 90px;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+	background: url("../images/logo.png") top left no-repeat;
+	
+	position: absolute;
+	display: block;
+}
+
+#claim {
+  position: absolute;
+  color: rgb(99,187,167);
+  top: 65px;
+  left: 420px;
+  font-size: 20px;
+}
+
+#info {
+    position: absolute;
+    color: white;
+    top: 9px;
+    right: 270px;
+    font-size: 17px;
+    background: rgb(0,118,182);
+    height: 32px;
+    padding: 0px 12px;
+}
+
+.lang-sk #info {
+  right: 212px;
+}
+
+#info p, #info-form p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  line-height: 31px;
+}
+
+#info b {
+  color: rgb(99,187,167);
+  font-weight: bold;
+}
+
+#info-form {
+  position: absolute;
+    color: white;
+    top: 9px;
+    right: 0px;
+    font-size: 17px;
+    background: rgb(99,187,167);
+    width: 320px;
+    height: 32px;
+}
+#info-form li:nth-of-type(2) a {
+  border-left: 1px solid white;
+}
+
+#info-form a {
+  color: white;
+  text-decoration: none;
+  height: 26px;
+  padding: 0px 12px;
+  display: inline-block;
+  -webkit-transition: background 0.8s; /* For Safari 3.1 to 6.0 */
+  transition: background 0.8s;
+}
+
+#info-form a:hover {
+  background: rgb(0,118,182);
+}

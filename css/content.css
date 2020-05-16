@@ -1,0 +1,278 @@
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(0,118,182);
+  font-family: 'Roboto', sans-serif;
+} 
+
+h1, h2 {
+  color: rgb(99,187,167);
+  font-weight: normal;
+}
+
+h3 {
+  color: rgb(71,71,71);
+}
+
+
+h4 {
+  color: rgb(99,187,167); 
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+}
+
+#left h2, #right h2 {
+  padding-left: 15px;
+}
+
+A {
+  color: rgb(0,118,182);
+}
+
+A:hover {
+  text-decoration: none;
+}
+
+P {
+   line-height: 150%;
+}
+
+LI {
+   line-height: 150%;
+   padding-bottom: 7px;
+   font-size: 14px;
+}
+
+UL {
+  list-style-image: url(./../img/odrazka.gif);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 5px 20px;
+}
+
+/* table */
+
+table.contenttable {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  font-size: 13px;
+  width: 100%;
+}
+
+table.contenttable p.bodytext {
+  padding: 0px;
+  margin: 0px;
+}
+
+table.contenttable th {
+  width: 100px;
+  text-align: left;
+}
+
+table.contenttable th, table.contenttable td {
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px dotted rgb(190,188,189);
+  border-bottom: 1px dotted rgb(190,188,189);
+}
+
+table.contenttable th p.bodytext {
+  color: rgb(123,123,123);
+  text-align: left;
+}
+
+.cleaner {
+  clear:both;
+}
+
+#c147, #c525, #c697 {
+  background: rgb(99,187,167);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;	
+  margin-bottom: 20px;
+}
+
+#c147 div, #c525 div, #c697 div {
+  background: url("../img/bubble.png") bottom center no-repeat;
+  padding: 20px 20px 37px 20px;
+}
+
+.csc-frame-frame1 h3 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding-left: 13px;
+  margin-left: -13px;
+  background: rgb(0,118,182) url("../img/arrow-white-right-pad.png") right 17px no-repeat;
+  -webkit-transition: background 0.8s; /* For Safari 3.1 to 6.0 */
+  transition: background 0.8s;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  
+}
+
+.csc-frame-frame1 h3 a:hover {
+  background: rgb(99,187,167) url("../img/arrow-white-right-pad.png") right 17px no-repeat;
+}
+
+.csc-frame-frame1 h3 {
+  margin: 0;
+  background: rgb(0,118,182);
+  color: white;
+  padding-left: 13px;
+}
+
+.csc-frame-frame1 p {
+  background: rgb(240,240,240);
+  padding: 10px 13px;
+  margin-top: -2px;
+}
+
+.menur h3 {
+  padding-left: 13px; 
+   padding-top: 11px;
+  padding-bottom: 11px; 
+}
+
+.csc-frame-frame1 .csc-textpic-image {
+  background: rgb(0,118,182);
+}
+
+.csc-frame-frame1 .csc-textpic-image a img {
+  -webkit-transition: opacity 0.8s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.8s;
+}
+
+.csc-frame-frame1 .csc-textpic-image a:hover img {
+  opacity:0.8;
+  filter:alpha(opacity=80);
+}
+
+#c167, #c527, #c699, #c1108 {
+  border-top: 1px dotted rgb(217,217,217);
+  width: 710px;
+}
+
+h4 a {
+  background: rgb(0,118,182)  url("../img/arrow-white-right-pad.png") right 10px no-repeat;
+  color: white;
+  text-decoration: none;
+  padding: 5px 35px 5px 10px;
+  -webkit-transition: background 0.8s; /* For Safari 3.1 to 6.0 */
+  transition: background 0.8s;
+}
+
+h4 a:hover {
+  background: rgb(154,209,177) url("../img/arrow-white-right-pad.png") right 10px no-repeat;
+}
+
+.csc-frame-frame2 {
+   background: rgb(99,187,167);
+   color: white;
+   padding: 2px 20px 15px 20px; 
+}
+
+.csc-frame-indent .csc-textpic-image a {
+  width: 130px;
+  height: 110px;
+  overflow: hidden;
+  display: block;
+  border: 1px solid silver;
+}
+
+#right #c270, #right #c271 {
+  background: rgb(240,240,240);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#facebook {
+  position: fixed;
+  right: 0;
+  top: 80px;
+  z-index: 1000;
+}
+
+#facebook img {
+  height: 45px;
+  width: 45px;
+}
+
+#zdravy-kos {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1000;
+  padding: 3px;
+}
+
+#zdravy-kos div {
+	margin: 0 !important;
+}
+
+#c272 .tx-jfmulticontent-pi1 h2 {
+  color: white;
+}
+
+#c272 .tx-jfmulticontent-pi1 {
+  background: url("../img/kongresy-background.png") top left repeat-y;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#c272 .tx-jfmulticontent-pi1 a {
+  color: white;
+}
+
+#c269 UL, #c273 UL {
+  list-style-image: url(./../img/odrazka-green.png);
+}
+
+
+.csc-frame-invisible {
+	display: none;
+}
+
+#popup-fancybox-content div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+	margin-bottom: 0;
+}
+
+
+.csc-frame-rulerBefore caption {
+  background: rgb(99,187,167);
+  padding: 25px 20px 30px 20px;;
+  font-size: 12px; 
+  display: none;
+  z-index: 500;
+  text-align: left;
+  width: 250px;
+  line-height: 150%;
+  color: white;
+  font-size: 14px;
+}
+
+.csc-frame-rulerBefore div.csc-textpic div.csc-textpic-imagerow {
+  overflow: visible;
+}
+
+.csc-frame-rulerBefore .csc-textpic-image {
+	position: relative;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+}
+
+.csc-frame-rulerBefore .csc-textpic-image:hover caption {
+   display: block;
+   position: absolute;
+   top: 140px;
+   left: 0;
+   z-index: 2000;
+}
+
+.csc-frame-rulerBefore .csc-textpic-image img {
+	position: relative;
+    top: -20px;
+}
